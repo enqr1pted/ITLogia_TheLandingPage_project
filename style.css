@@ -10,3 +10,8 @@
     color: red;
     font-style: italic;
 }
+
+.phrase_2 {
+    color: red;
+    text-decoration: line-through;
+}

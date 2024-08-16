@@ -59,6 +59,11 @@ body {
     text-align: center;
 }
 
+.main{
+    position: relative;
+    overflow: hidden;
+}
+
 .header {
     padding: 40px 0;
 }
@@ -126,6 +131,7 @@ body {
 
 .products {
     padding: 100px 0;
+    position: relative;
 }
 
 .products-items {
@@ -220,4 +226,112 @@ body {
 .love-item-text {
     font-size: 18px;
     line-height: 130%;
+}
+
+.order {
+    padding-bottom: 102px;
+    position: relative;
+}
+
+.order .container {
+    position: relative;
+}
+
+.order-block {
+    display: flex;
+    margin-top: 103px;
+    background-color: rgb(255 255 255 / 30%);
+    backdrop-filter: blur(50px);
+}
+
+.order-form {
+    margin-left: 200px;
+    max-width: 387px;
+    padding: 40px 0 44px 0;
+    box-sizing: border-box;
+}
+
+.order-form-text {
+    font-family: 'Steppe-ExtraBold', sans-serif;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.order-form-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.order-form-inputs input {
+    border: 1px solid #FFFFFF;
+    border-radius: 60px;
+    margin-bottom: 16px;
+    padding: 24px 22px;
+    font-size: 18px;
+    width: 385px;
+    height: 68px;
+    background: transparent;
+    box-sizing: border-box;
+    outline: none;
+    color: #FFFFFF;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.order-form-inputs .button.violet-button {
+    width: 387px;
+    height: 71px;
+}
+
+.order-block-image {
+    height: 501px;
+    margin-left: 109px;
+}
+
+.order-image {
+    height: 559px;
+    top: -58px;
+    position: relative;
+}
+
+.order-bg-image {
+    position: absolute;
+    top: 0;
+    right: calc(100% - 810px);
+    z-index: -1;
+}
+
+.footer {
+    padding: 126px 0 50px 0;
+    text-align: center;
+}
+
+.rights {
+    margin-top: 14px;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.Line1 {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: calc(100% - 960px);
+}
+
+.Line2 {
+    position: absolute;
+    z-index: -1;
+    top: -40px;
+    left: 0;
+}
+
+.Line3 {
+    position: absolute;
+    z-index: -1;
+    top: -920px;
+    left: 0;
 }
